@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+ErrorDocument 404 /404.php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+DirectoryIndex index.php
+RewriteRule ^sitemap.xml$ sitemap.php [L,QSA]
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]

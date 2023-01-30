@@ -1,0 +1,16 @@
+User-agent: Yandex 
+Disallow: /images
+Disallow: /Admin
+Disallow: /archive-search.php
+Host: https://opis-vlojenia.ru
+
+User-agent: Googlebot 
+Disallow: /images
+Disallow: /Admin
+Disallow: /archive-search.php
+
+User-agent: *         
+Disallow: /images
+Disallow: /Admin
+Disallow: /archive-search.php
+Sitemap: https://opis-vlojenia.ru//sitemap.xml

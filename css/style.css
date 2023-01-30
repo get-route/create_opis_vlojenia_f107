@@ -1,0 +1,382 @@
+body
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    min-width: 320px;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6
+{
+    color:black;
+}
+h1
+{
+    font-size: 50px;
+}
+h2
+{
+    font-size: 30px;
+}
+h3
+{
+    font-size: 30px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+/*Заголовок и меню*/
+.nav-item
+{
+color: #ffffff;
+}
+.header
+{
+    min-height: 620px;
+    background-image:url("../images/header-index.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-post
+{
+    min-height: 387px;
+    background-image:url("../images/post-index.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo
+{
+    font-size: 35px;
+}
+.logo-paragraph
+{
+    font-size: 15px;
+    margin-top: -10px;
+}
+.info-post
+{
+    margin-top: 100px;
+}
+/*Форма поиска*/
+.index-form-post
+{
+    margin-top: 150px;
+}
+.form-search
+{
+    min-width: 200px;
+    margin-top: 80px;
+}
+.form-search-post
+{
+    min-width: 100px;
+}
+.serch-value
+{
+    background-color: #004486;
+    border: white solid;
+    font-size: 30px;
+    color: #f7f7f7;
+}
+
+.serch-value-button
+{
+    background-color: #004486;
+    border: #008245 solid;
+    font-size: 30px;
+    color: #f7f7f7;
+    margin: 20px;
+}
+.serch-value-button:hover
+{
+    background-color: #113153;
+    border: white solid;
+    font-size: 30px;
+    color: #f7f7f7;
+}
+.serch-donwld-button
+{
+    background-color: #01490a;
+    border: #004486 solid;
+    font-size: 30px;
+    color: #f7f7f7;
+}
+.serch-donwld-button:hover
+{
+    background-color: #113153;
+    border: white solid;
+    font-size: 30px;
+    color: #f7f7f7;
+}
+
+.serch-value::-moz-placeholder {
+    color: #fff;
+}
+.serch-value:-ms-input-placeholder {
+    color: #fff;
+}
+.serch-value::-webkit-input-placeholder {
+    color: #fff;
+}
+.form-search-header
+{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.form-search-paragraph
+{
+    margin: 10px;
+}
+/*Пункт по назначению*/
+.index-post
+{
+    margin: 20px;
+    border: rgba(255, 255, 255, 0.34) 4px solid;
+}
+.index-post:hover
+{
+    border-right: #01490a 4px solid;
+}
+.index-image
+{
+    height: 300px;
+}
+.card
+{
+    margin-top: 10px;
+}
+.info-section
+{
+    background-color: #e0e0dd;
+}
+
+.card-body-link h3
+{
+    font-size: 40px;
+}
+.content-section
+{
+    background-color: #b6d0e1;
+}
+.paragraph-section
+{
+    font-size: 25px;
+}
+.content-section-text
+{
+    margin-top: 30px;
+}
+/*Секция информации*/
+.post-section
+{
+    background-color: #b6d0e1;
+    min-height: 700px;
+}
+.content-section-post
+{
+    background-color: white;
+    margin-top: 20px;
+}
+.buton-info
+{
+    font-size: 20px;
+    color: black;
+    background-color: #8fb1d0;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.kards-category
+{
+
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.border-info
+{
+    border: #113153 3px dashed!important;
+
+}
+/*Комментарии*/
+.hr-line {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px solid #333;
+}
+.comment
+{
+    background-color: #b6d0e1;
+}
+.comment-form
+{
+    background-color: #ffffff;
+    margin: 30px;
+    border: 4px #b6d0e1 solid;
+    justify-content: center;
+}
+.comment-start
+{
+    background-color: #0c5460;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+}
+.comment-start:hover
+{
+    background-color: #000000;
+    width: 200px;
+    height: 50px;
+}
+.vk-icon-post ,.fb-icon ,.tw-icon ,.tg-icon{
+    width: 30px;
+    height: 30px;
+}
+.vk-icon-post:hover ,.fb-icon:hover ,.tw-icon:hover ,.tg-icon:hover{
+    border: 3px solid #2676c9;
+    border-radius: 10px;
+}
+
+/*Футер*/
+.footer
+{
+    background-color: #b6d0e1;
+}
+.footer-text
+{
+font-size: 20px;
+}
+/*Админка*/
+.login-header
+{
+    margin-top: 200px;
+}
+
+.komment-button-admin
+{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.komment-table-admin
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+.adminka
+{
+    background-color: #ffffff;
+}
+.adminka a
+{
+    color: rgba(255, 255, 255, 0.83);
+    background-color: #000000;
+}
+/*Последние записи*/
+.kards-telated
+{
+    max-width: 500px;
+}
+.related-image
+{
+    max-width: 200px;
+}
+/*Списки, цитаты,обтекание картинки*/
+.bullet {
+    margin-left: 0;
+    list-style: none;
+    counter-reset: li;
+}
+.bullet li {
+    position: relative;
+    margin-bottom: 1.5em;
+    border: 3px solid #2676c9;
+    padding: 0.6em;
+    border-radius: 4px;
+    background: #FEFEFE;
+    color: #231F20;
+    font-family: 'Roboto Slab', serif;
+}
+.bullet li:before {
+    position: absolute;
+    top: -0.7em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #DCC24B;
+    background: #FEFEFE;
+    border-radius: 50%;
+    counter-increment: li;
+    content: counter(li);
+}
+blockquote {
+    margin: 0;
+    background: #e0e0dd;
+    color: #474C4F;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+blockquote:before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 14px;
+    color: #474C4F;
+    font-size: 20px;
+    background: #b6d0e1;
+    padding: 0 15px;
+}
+blockquote:after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    right: 15px;
+    height: 4px;
+    border-top: 1px dotted #474C4F;
+    border-bottom: 1px dotted #474C4F;
+}
+blockquote p {
+    font-size: 20px;
+    letter-spacing: .05em;
+    line-height: 1.4;
+}
+blockquote cite {
+    font-style: normal;
+    font-weight: 300;
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+.imgcenter{
+    position: center;
+}
+@media (min-width: 576px)
+{
+    background-image:url("./images/header-index-mob.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
